@@ -12,24 +12,3 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-.header {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  color: white;
-}
-.main-menu{
- display: flex;
- justify-content: center;
- padding: 20px;
-}
-
-.main-menu__item{
-  margin-left: 20px;
-  font-size: 1.2rem;
-}
-.main-menu__link{
-  text-decoration: none;
-  color: white;
-}

@@ -9,6 +9,7 @@
  */
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 html {
   line-height: 1.15; /* 1 */
