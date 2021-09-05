@@ -10,6 +10,10 @@ html {
 body{
   font-family: 'Raleway', sans-serif;
 }
+body::-webkit-scrollbar{
+  background-color: rgb(226, 226, 226);
+  width: 15px;
+}
 /* 
 =======================
   * Estilos del Header
@@ -93,7 +97,7 @@ body{
 }
 .main__text{
   text-align: center;
-  margin: 15px 10px 20px 15px;
+  margin: 6px 10px 20px 15px;
 }
 .main__img{
   width: 60%;
