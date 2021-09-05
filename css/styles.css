@@ -1,23 +1,18 @@
 /* 
-=====================
-Estilos Iniciales
-=====================
+=========================
+  * Estilos Iniciales
+=========================
 */
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 body{
   font-family: 'Raleway', sans-serif;
 }
-a {
-  text-decoration: none;
-  color: blue;
-}
 /* 
 =======================
-  Estilos del Header
+  * Estilos del Header
 =======================
 */
 
@@ -33,6 +28,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  box-shadow: 10px 10px 100px #b4b4b4;
+  margin-bottom: 30px;
 }
 
 .header__nav {
@@ -78,4 +75,17 @@ a {
   margin-top: 0;
   margin-bottom: 20px;
   text-align: center;
+}
+/* 
+======================
+  * Estilos Del Main
+======================
+*/
+.main{
+  font-size: 1.4rem;
+  color: #585757;
+}
+.main__text{
+  text-align: center;
+  margin: 30px 20px;
 }
