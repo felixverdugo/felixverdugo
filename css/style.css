@@ -119,6 +119,12 @@
   text-align: center;
   margin: 6px 10px 20px 15px;
 }
+.main__text a{
+  color: #ff8a53e1;
+}
+.main__text a:hover{
+  color: #f35c16e1;
+}
 .main__img {
   width: 60%;
 }
