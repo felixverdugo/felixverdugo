@@ -44,7 +44,7 @@ body::-webkit-scrollbar{
   align-self: center;
   font-size: 2rem;
 }
-.header__menu {
+.main-menu {
   font-size: 1.5rem;
   width: 170px;
   display: flex;
@@ -52,18 +52,15 @@ body::-webkit-scrollbar{
   justify-content: space-between;
   align-items: center;
 }
-.header__menu--item {
+.main-menu__item {
   display: inline-block;
 }
-.header__menu--link{
+.main-menu__link{
   color: #eeeeee;
   letter-spacing: 1px;
 }
-.header__menu--link:hover{
+.main-menu__link:hover{
   color: #d4d4d4;
-}
-.header__logo, .header__nav {
-  margin-top: 20px;
 }
 .header__title, .icon-link{
   align-self: center;
