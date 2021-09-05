@@ -1,0 +1,92 @@
+/* 
+=========================
+    * Estilos Iniciales
+=========================
+*/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+  background-image: linear-gradient(100deg, #fdfbfb 0%, #ebedee 100%);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #d8d3d3;
+  border-radius: 8px;
+}
+
+/* 
+=========================
+    * Estilos Header
+=========================
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: #ff8077;
+  color: #fff;
+  box-shadow: 10px 10px 100px #b4b4b4;
+  height: 10vh;
+  min-height: 100px;
+}
+
+.header__logo {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.header-menu {
+  font-size: 1.5rem;
+}
+.header-menu__item {
+  display: inline-block;
+  margin: 0 15px;
+}
+.header-menu__link {
+  color: #dadada;
+}
+.header-menu__link--active {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f79264;
+}
+.main {
+    padding: 20px;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  width: 70vw;
+  max-width: 740px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-collapse: collapse;
+}
+.cell {
+  padding: 15px;
+  letter-spacing: 1px;
+}
+.table__header {
+  background-color: #d88e63;
+  color: #f8ceab;
+}
+.table__body {
+  background-color: #f5bfa0;
+  color: #503322;
+}
+ul{
+    line-height: 30px;
+    text-align: start;
+    list-style: circle;
+    color: #7c6957;
+    margin-left: 10px;
+}
